@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npx snowpack --clean --include 'src/**/*.js'"
   },
   "keywords": [],
   "author": "",
@@ -14,3 +14,4 @@
     "vue": "^2.6.11"
   }
 }
+
