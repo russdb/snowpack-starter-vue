@@ -25,4 +25,7 @@ For this, its easiest to use snowpacks auto install method. We can also use the 
 "scripts": {
     "prepare": "npx snowpack --clean --include 'src/**/*.js'"
   },
-  ```
+  ``` 
+
+After placing import statements in src/main.js, run `npm run prepare` and snowpack will look for every statement with \web_modeule\ in the path and will auto install dependencies. This is a best practice! 😿  
+
